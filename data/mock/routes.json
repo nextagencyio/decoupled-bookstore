@@ -1,0 +1,631 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Turning Pages Bookstore",
+          "path": "/homepage",
+          "heroTitle": "Discover Your Next Great Read",
+          "heroSubtitle": "Independent Bookstore Since 1987",
+          "heroDescription": {
+            "processed": "<p>Welcome to Turning Pages, where every book tells a story and every visit sparks a new adventure. Browse our carefully curated collection of over 40,000 titles and let our knowledgeable staff guide you to your next literary treasure.</p>",
+            "summary": "Welcome to Turning Pages, where every book tells a story and every visit sparks a new adventure. Browse our carefully curated collection of over 40,000 titles and let our knowledgeable staff guide you"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-titles",
+              "title": "",
+              "number": "40,000+",
+              "label": "Titles in Stock"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "38",
+              "label": "Years Open"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-events",
+              "title": "",
+              "number": "200+",
+              "label": "Events Per Year"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-clubs",
+              "title": "",
+              "number": "8",
+              "label": "Book Clubs"
+            }
+          ],
+          "featuredItemsTitle": "Staff Picks",
+          "ctaTitle": "Visit Us Today",
+          "ctaDescription": {
+            "processed": "<p>Step through our doors and lose yourself in a world of words. Whether you're a lifelong bibliophile or just discovering the joy of reading, there's something here for everyone.</p>",
+            "summary": "Step through our doors and lose yourself in a world of words. Whether you're a lifelong bibliophile or just discovering the joy of reading, there's something here for everyone."
+          },
+          "ctaPrimary": "Browse Books",
+          "ctaSecondary": "Upcoming Events"
+        }
+      }
+    }
+  },
+  "/books/the-midnight-library": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBook",
+          "id": "book-midnight-library",
+          "title": "The Midnight Library",
+          "path": "/books/the-midnight-library",
+          "body": {
+            "processed": "<p>Between life and death there is a library, and within that library, the shelves go on forever. Every book provides a chance to try another life you could have lived. To see how things would be if you had made other choices... Would you have done anything different, if you had the chance to undo your regrets?</p><p>Nora Seed finds herself in the Midnight Library, where she can live as many lives as she wishes. With the help of an insightful librarian, she explores the possibilities of all the lives she could have led.</p>",
+            "summary": "Between life and death there is a library, and within that library, the shelves go on forever. Every book provides a chance to try another life you could have lived. To see how things would be if you "
+          },
+          "author": "Matt Haig",
+          "genre": "Literary Fiction",
+          "price": "$16.99",
+          "isbn": "978-0525559474",
+          "publisher": "Viking",
+          "pageCount": 288,
+          "staffFavorite": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&q=80",
+            "alt": "Books on a library shelf",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/books/project-hail-mary": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBook",
+          "id": "book-project-hail-mary",
+          "title": "Project Hail Mary",
+          "path": "/books/project-hail-mary",
+          "body": {
+            "processed": "<p>Ryland Grace is the sole survivor on a desperate, last-chance mission. He must save Earth from a catastrophic threat, but right now he doesn't even know his own name, let alone the nature of his assignment or how to complete it.</p><p>An interstellar adventure filled with humor, heart, and hard science that will keep you turning pages late into the night. Andy Weir delivers his best work yet.</p>",
+            "summary": "Ryland Grace is the sole survivor on a desperate, last-chance mission. He must save Earth from a catastrophic threat, but right now he doesn't even know his own name, let alone the nature of his assig"
+          },
+          "author": "Andy Weir",
+          "genre": "Science Fiction",
+          "price": "$18.99",
+          "isbn": "978-0593135204",
+          "publisher": "Ballantine Books",
+          "pageCount": 496,
+          "staffFavorite": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&q=80",
+            "alt": "Space and stars",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/books/educated": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBook",
+          "id": "book-educated",
+          "title": "Educated: A Memoir",
+          "path": "/books/educated",
+          "body": {
+            "processed": "<p>Born to survivalists in the mountains of Idaho, Tara Westover was seventeen the first time she set foot in a classroom. Her quest for knowledge transformed her, taking her over oceans and across continents, to Harvard and to Cambridge University.</p><p>A powerful account of one woman's struggle for self-invention and the courage it takes to pursue education against all odds.</p>",
+            "summary": "Born to survivalists in the mountains of Idaho, Tara Westover was seventeen the first time she set foot in a classroom. Her quest for knowledge transformed her, taking her over oceans and across conti"
+          },
+          "author": "Tara Westover",
+          "genre": "Memoir",
+          "price": "$15.99",
+          "isbn": "978-0399590504",
+          "publisher": "Random House",
+          "pageCount": 352,
+          "staffFavorite": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80",
+            "alt": "Stack of books",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/books/piranesi": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBook",
+          "id": "book-piranesi",
+          "title": "Piranesi",
+          "path": "/books/piranesi",
+          "body": {
+            "processed": "<p>Piranesi's house is no ordinary building: its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth, the ocean is imprisoned.</p><p>Piranesi lives to explore the house. He carries a journal in which he records his discoveries. Then a message arrives, and everything changes. Susanna Clarke's second novel is a haunting, original masterpiece.</p>",
+            "summary": "Piranesi's house is no ordinary building: its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within th"
+          },
+          "author": "Susanna Clarke",
+          "genre": "Fantasy / Literary Fiction",
+          "price": "$16.00",
+          "isbn": "978-1635575798",
+          "publisher": "Bloomsbury",
+          "pageCount": 272,
+          "staffFavorite": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80",
+            "alt": "Mysterious hallway of books",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/books/atomic-habits": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeBook",
+          "id": "book-atomic-habits",
+          "title": "Atomic Habits",
+          "path": "/books/atomic-habits",
+          "body": {
+            "processed": "<p>No matter your goals, Atomic Habits offers a proven framework for improving every day. James Clear reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.</p><p>Drawing on biology, psychology, and neuroscience, Clear distills complex topics into simple behaviors that can be easily applied to daily life.</p>",
+            "summary": "No matter your goals, Atomic Habits offers a proven framework for improving every day. James Clear reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and"
+          },
+          "author": "James Clear",
+          "genre": "Self-Help / Productivity",
+          "price": "$16.99",
+          "isbn": "978-0735211292",
+          "publisher": "Avery",
+          "pageCount": 320,
+          "staffFavorite": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+            "alt": "Open book on a wooden table",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/summer-author-reading-series": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-author-reading",
+          "title": "Summer Author Reading Series",
+          "path": "/events/summer-author-reading-series",
+          "body": {
+            "processed": "<p>Join us for an evening of literary delight as acclaimed novelist Sarah Chen reads from her latest work. Following the reading, Sarah will answer audience questions and sign copies of her book.</p><p>Light refreshments and wine will be served. Seats are limited, so please RSVP early.</p>",
+            "summary": "Join us for an evening of literary delight as acclaimed novelist Sarah Chen reads from her latest work. Following the reading, Sarah will answer audience questions and sign copies of her book.Light re"
+          },
+          "eventDate": {
+            "timestamp": 1784160000
+          },
+          "location": "Main Reading Room, Turning Pages Bookstore",
+          "eventType": "Author Reading",
+          "isFree": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&q=80",
+            "alt": "Library reading room with warm lighting",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/saturday-morning-storytime": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-storytime",
+          "title": "Saturday Morning Storytime",
+          "path": "/events/saturday-morning-storytime",
+          "body": {
+            "processed": "<p>Bring the little ones for our beloved Saturday morning storytime! This week we're exploring tales of adventure and friendship with interactive readings, songs, and a craft activity.</p><p>Recommended for children ages 3-7. Parents and caregivers welcome to join the fun!</p>",
+            "summary": "Bring the little ones for our beloved Saturday morning storytime! This week we're exploring tales of adventure and friendship with interactive readings, songs, and a craft activity.Recommended for chi"
+          },
+          "eventDate": {
+            "timestamp": 1782054000
+          },
+          "location": "Children's Corner, Turning Pages Bookstore",
+          "eventType": "Children's Event",
+          "isFree": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80",
+            "alt": "Children reading together",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/creative-writing-workshop": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-writing-workshop",
+          "title": "Creative Writing Workshop: Finding Your Voice",
+          "path": "/events/creative-writing-workshop",
+          "body": {
+            "processed": "<p>Whether you're working on your first short story or your tenth novel, this workshop will help you develop your unique writing voice. Led by award-winning author and writing instructor David Park, this intensive three-hour session covers character development, dialogue, and narrative structure.</p><p>All skill levels welcome. Please bring a notebook and pen, or a laptop. Limited to 15 participants for personalized feedback.</p>",
+            "summary": "Whether you're working on your first short story or your tenth novel, this workshop will help you develop your unique writing voice. Led by award-winning author and writing instructor David Park, this"
+          },
+          "eventDate": {
+            "timestamp": 1786302000
+          },
+          "location": "Second Floor Workshop Space",
+          "eventType": "Workshop",
+          "isFree": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80",
+            "alt": "Person writing in a notebook with pen",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/staff-picks/elenas-pick": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeStaffPick",
+          "id": "staff-pick-elena",
+          "title": "Elena's Pick: The Midnight Library",
+          "path": "/staff-picks/elenas-pick",
+          "body": {
+            "processed": "<p>This book absolutely changed my perspective on life. Matt Haig has a gift for taking complex philosophical ideas and weaving them into a story that's both deeply moving and wonderfully accessible. I've recommended it to at least a dozen customers and every single one has come back to thank me.</p><p>If you've ever wondered 'what if?' about the choices you've made, this book will speak to your soul.</p>",
+            "summary": "This book absolutely changed my perspective on life. Matt Haig has a gift for taking complex philosophical ideas and weaving them into a story that's both deeply moving and wonderfully accessible. I'v"
+          },
+          "bookTitle": "The Midnight Library",
+          "bookAuthor": "Matt Haig",
+          "reviewerName": "Elena Rodriguez",
+          "reviewerRole": "Fiction Section Lead",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&q=80",
+            "alt": "Books arranged on a shelf",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/staff-picks/marcus-pick": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeStaffPick",
+          "id": "staff-pick-marcus",
+          "title": "Marcus's Pick: Project Hail Mary",
+          "path": "/staff-picks/marcus-pick",
+          "body": {
+            "processed": "<p>If you loved The Martian, you'll absolutely devour this one. Andy Weir outdoes himself with a story that's equal parts thrilling space adventure and heartwarming tale of unlikely friendship. The science is fascinating and the humor is spot-on.</p><p>I literally could not put this down. Read it in two sittings!</p>",
+            "summary": "If you loved The Martian, you'll absolutely devour this one. Andy Weir outdoes himself with a story that's equal parts thrilling space adventure and heartwarming tale of unlikely friendship. The scien"
+          },
+          "bookTitle": "Project Hail Mary",
+          "bookAuthor": "Andy Weir",
+          "reviewerName": "Marcus Thompson",
+          "reviewerRole": "Sci-Fi & Fantasy Specialist",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&q=80",
+            "alt": "Space and stars",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/staff-picks/jasmines-pick": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeStaffPick",
+          "id": "staff-pick-jasmine",
+          "title": "Jasmine's Pick: Piranesi",
+          "path": "/staff-picks/jasmines-pick",
+          "body": {
+            "processed": "<p>This is unlike anything I've ever read. Susanna Clarke creates a world that feels both impossible and completely real. The mystery unfolds so beautifully, and the protagonist is one of the most endearing characters in modern fiction. It's short, strange, and absolutely unforgettable.</p><p>Read it knowing as little as possible -- trust me on this one.</p>",
+            "summary": "This is unlike anything I've ever read. Susanna Clarke creates a world that feels both impossible and completely real. The mystery unfolds so beautifully, and the protagonist is one of the most endear"
+          },
+          "bookTitle": "Piranesi",
+          "bookAuthor": "Susanna Clarke",
+          "reviewerName": "Jasmine Patel",
+          "reviewerRole": "Store Manager",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80",
+            "alt": "Mysterious library hallway",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "about-page",
+          "title": "About Turning Pages",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Turning Pages Bookstore has been a cornerstone of our community since 1987. Founded by Margaret and Robert Chen, our independent bookstore has weathered the rise of big-box retailers and online shopping by staying true to what matters most: connecting readers with the books they'll love.</p><h2>Our Mission</h2><p>We believe that a great bookstore is more than just a place to buy books. It's a gathering place, a sanctuary for ideas, and a launchpad for imagination. Our knowledgeable staff reads voraciously across all genres so they can make personalized recommendations for every customer who walks through our doors.</p><h2>Visit Us</h2><p>We're located in the heart of downtown at 245 Main Street. Stop by for a browse, grab a coffee at our in-store cafe, or attend one of our many community events. We're open seven days a week because great stories don't wait.</p>",
+            "summary": "Turning Pages Bookstore has been a cornerstone of our community since 1987. Founded by Margaret and Robert Chen, our independent bookstore has weathered the rise of big-box retailers and online shoppi"
+          }
+        }
+      }
+    }
+  },
+  "/contact": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "contact-page",
+          "title": "Contact Us",
+          "path": "/contact",
+          "body": {
+            "processed": "<p>We'd love to hear from you! Whether you're looking for a specific title, want to host an event at our store, or just want to chat about books, we're here for you.</p><h2>Store Hours</h2><p>Monday - Saturday: 9:00 AM - 9:00 PM<br/>Sunday: 10:00 AM - 6:00 PM</p><h2>Location</h2><p>245 Main Street<br/>Maplewood, NJ 07040</p><h2>Get in Touch</h2><p>Phone: (555) 867-5309<br/>Email: hello@turningpagesbookstore.com</p>",
+            "summary": "We'd love to hear from you! Whether you're looking for a specific title, want to host an event at our store, or just want to chat about books, we're here for you.Store HoursMonday - Saturday: 9:00 AM "
+          }
+        }
+      }
+    }
+  }
+}

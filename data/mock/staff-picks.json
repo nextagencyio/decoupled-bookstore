@@ -1,0 +1,129 @@
+{
+  "data": {
+    "nodeStaffPicks": {
+      "__typename": "NodeStaffPickConnection",
+      "nodes": [
+        {
+          "__typename": "NodeStaffPick",
+          "id": "staff-pick-elena",
+          "title": "Elena's Pick: The Midnight Library",
+          "path": "/staff-picks/elenas-pick",
+          "body": {
+            "processed": "<p>This book absolutely changed my perspective on life. Matt Haig has a gift for taking complex philosophical ideas and weaving them into a story that's both deeply moving and wonderfully accessible. I've recommended it to at least a dozen customers and every single one has come back to thank me.</p><p>If you've ever wondered 'what if?' about the choices you've made, this book will speak to your soul.</p>",
+            "summary": "This book absolutely changed my perspective on life. Matt Haig has a gift for taking complex philosophical ideas and weaving them into a story that's both deeply moving and wonderfully accessible. I'v"
+          },
+          "bookTitle": "The Midnight Library",
+          "bookAuthor": "Matt Haig",
+          "reviewerName": "Elena Rodriguez",
+          "reviewerRole": "Fiction Section Lead",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&q=80",
+            "alt": "Books arranged on a shelf",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeStaffPick",
+          "id": "staff-pick-marcus",
+          "title": "Marcus's Pick: Project Hail Mary",
+          "path": "/staff-picks/marcus-pick",
+          "body": {
+            "processed": "<p>If you loved The Martian, you'll absolutely devour this one. Andy Weir outdoes himself with a story that's equal parts thrilling space adventure and heartwarming tale of unlikely friendship. The science is fascinating and the humor is spot-on.</p><p>I literally could not put this down. Read it in two sittings!</p>",
+            "summary": "If you loved The Martian, you'll absolutely devour this one. Andy Weir outdoes himself with a story that's equal parts thrilling space adventure and heartwarming tale of unlikely friendship. The scien"
+          },
+          "bookTitle": "Project Hail Mary",
+          "bookAuthor": "Andy Weir",
+          "reviewerName": "Marcus Thompson",
+          "reviewerRole": "Sci-Fi & Fantasy Specialist",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&q=80",
+            "alt": "Space and stars",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeStaffPick",
+          "id": "staff-pick-jasmine",
+          "title": "Jasmine's Pick: Piranesi",
+          "path": "/staff-picks/jasmines-pick",
+          "body": {
+            "processed": "<p>This is unlike anything I've ever read. Susanna Clarke creates a world that feels both impossible and completely real. The mystery unfolds so beautifully, and the protagonist is one of the most endearing characters in modern fiction. It's short, strange, and absolutely unforgettable.</p><p>Read it knowing as little as possible -- trust me on this one.</p>",
+            "summary": "This is unlike anything I've ever read. Susanna Clarke creates a world that feels both impossible and completely real. The mystery unfolds so beautifully, and the protagonist is one of the most endear"
+          },
+          "bookTitle": "Piranesi",
+          "bookAuthor": "Susanna Clarke",
+          "reviewerName": "Jasmine Patel",
+          "reviewerRole": "Store Manager",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80",
+            "alt": "Mysterious library hallway",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

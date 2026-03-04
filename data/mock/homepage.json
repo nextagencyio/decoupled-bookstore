@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Turning Pages Bookstore",
+          "path": "/homepage",
+          "heroTitle": "Discover Your Next Great Read",
+          "heroSubtitle": "Independent Bookstore Since 1987",
+          "heroDescription": {
+            "processed": "<p>Welcome to Turning Pages, where every book tells a story and every visit sparks a new adventure. Browse our carefully curated collection of over 40,000 titles and let our knowledgeable staff guide you to your next literary treasure.</p>",
+            "summary": "Welcome to Turning Pages, where every book tells a story and every visit sparks a new adventure. Browse our carefully curated collection of over 40,000 titles and let our knowledgeable staff guide you"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-titles",
+              "title": "",
+              "number": "40,000+",
+              "label": "Titles in Stock"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "38",
+              "label": "Years Open"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-events",
+              "title": "",
+              "number": "200+",
+              "label": "Events Per Year"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-clubs",
+              "title": "",
+              "number": "8",
+              "label": "Book Clubs"
+            }
+          ],
+          "featuredItemsTitle": "Staff Picks",
+          "ctaTitle": "Visit Us Today",
+          "ctaDescription": {
+            "processed": "<p>Step through our doors and lose yourself in a world of words. Whether you're a lifelong bibliophile or just discovering the joy of reading, there's something here for everyone.</p>",
+            "summary": "Step through our doors and lose yourself in a world of words. Whether you're a lifelong bibliophile or just discovering the joy of reading, there's something here for everyone."
+          },
+          "ctaPrimary": "Browse Books",
+          "ctaSecondary": "Upcoming Events"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-author-reading",
+          "title": "Summer Author Reading Series",
+          "path": "/events/summer-author-reading-series",
+          "body": {
+            "processed": "<p>Join us for an evening of literary delight as acclaimed novelist Sarah Chen reads from her latest work. Following the reading, Sarah will answer audience questions and sign copies of her book.</p><p>Light refreshments and wine will be served. Seats are limited, so please RSVP early.</p>",
+            "summary": "Join us for an evening of literary delight as acclaimed novelist Sarah Chen reads from her latest work. Following the reading, Sarah will answer audience questions and sign copies of her book.Light re"
+          },
+          "eventDate": {
+            "timestamp": 1784160000
+          },
+          "location": "Main Reading Room, Turning Pages Bookstore",
+          "eventType": "Author Reading",
+          "isFree": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&q=80",
+            "alt": "Library reading room with warm lighting",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-storytime",
+          "title": "Saturday Morning Storytime",
+          "path": "/events/saturday-morning-storytime",
+          "body": {
+            "processed": "<p>Bring the little ones for our beloved Saturday morning storytime! This week we're exploring tales of adventure and friendship with interactive readings, songs, and a craft activity.</p><p>Recommended for children ages 3-7. Parents and caregivers welcome to join the fun!</p>",
+            "summary": "Bring the little ones for our beloved Saturday morning storytime! This week we're exploring tales of adventure and friendship with interactive readings, songs, and a craft activity.Recommended for chi"
+          },
+          "eventDate": {
+            "timestamp": 1782054000
+          },
+          "location": "Children's Corner, Turning Pages Bookstore",
+          "eventType": "Children's Event",
+          "isFree": true,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80",
+            "alt": "Children reading together",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-writing-workshop",
+          "title": "Creative Writing Workshop: Finding Your Voice",
+          "path": "/events/creative-writing-workshop",
+          "body": {
+            "processed": "<p>Whether you're working on your first short story or your tenth novel, this workshop will help you develop your unique writing voice. Led by award-winning author and writing instructor David Park, this intensive three-hour session covers character development, dialogue, and narrative structure.</p><p>All skill levels welcome. Please bring a notebook and pen, or a laptop. Limited to 15 participants for personalized feedback.</p>",
+            "summary": "Whether you're working on your first short story or your tenth novel, this workshop will help you develop your unique writing voice. Led by award-winning author and writing instructor David Park, this"
+          },
+          "eventDate": {
+            "timestamp": 1786302000
+          },
+          "location": "Second Floor Workshop Space",
+          "eventType": "Workshop",
+          "isFree": false,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80",
+            "alt": "Person writing in a notebook with pen",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
