@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-titles",
               "title": "",
-              "number": "40,000+",
+              "number": "40,000+", "value": "40,000+",
               "label": "Titles in Stock"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-years",
               "title": "",
-              "number": "38",
+              "number": "38", "value": "38",
               "label": "Years Open"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-events",
               "title": "",
-              "number": "200+",
+              "number": "200+", "value": "200+",
               "label": "Events Per Year"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-clubs",
               "title": "",
-              "number": "8",
+              "number": "8", "value": "8",
               "label": "Book Clubs"
             }
           ],
