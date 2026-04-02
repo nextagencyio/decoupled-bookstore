@@ -1,4 +1,5 @@
 import { getClient } from '@/lib/drupal-client'
+import { GET_NODE_BY_PATH } from '@/lib/queries'
 import Header from '../components/Header'
 import ErrorBoundary from '../components/ErrorBoundary'
 import HomepageRenderer from '../components/HomepageRenderer'
@@ -13,8 +14,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const path = `/${(resolvedParams.slug || []).join('/')}`
   try {
     const client = getClient()
-    const page = await client.getEntryByPath(path)
-    const title = (page as any)?.title || 'Page'
+    const result = await client.raw(GET_NODE_BY_PATH, { path }) as any
+    const page = result?.route?.entity
+    const title = page?.title || 'Page'
     return { title }
   } catch {
     return { title: 'Page' }
@@ -39,7 +41,8 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
   const client = getClient()
 
   try {
-    const entity = await client.getEntryByPath(path) as any
+    const result = await client.raw(GET_NODE_BY_PATH, { path }) as any
+    const entity = result?.route?.entity
     if (!entity) {
       return (
         <div className="min-h-screen bg-[#faf8f5]">

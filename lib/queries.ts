@@ -114,7 +114,9 @@ export const GET_NODE_BY_PATH = gql`
             body {
               processed
             }
-            eventDate
+            eventDate {
+              timestamp
+            }
             location
             image {
               url
@@ -181,9 +183,7 @@ export const GET_EVENTS = gql`
           body { processed summary }
           eventDate { timestamp }
           location
-          eventType
-          isFree
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+          image { url alt width height }
         }
       }
     }
@@ -199,12 +199,10 @@ export const GET_EVENT_BY_PATH = gql`
             id
             title
             path
-          body { processed summary }
-          eventDate { timestamp }
-          location
-          eventType
-          isFree
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            body { processed summary }
+            eventDate { timestamp }
+            location
+            image { url alt width height }
           }
         }
       }
@@ -223,10 +221,8 @@ export const GET_STAFF_PICKS = gql`
         ... on NodeStaffPick {
           body { processed summary }
           bookTitle
-          bookAuthor
           reviewerName
-          reviewerRole
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+          image { url alt width height }
         }
       }
     }
@@ -242,12 +238,10 @@ export const GET_STAFF_PICK_BY_PATH = gql`
             id
             title
             path
-          body { processed summary }
-          bookTitle
-          bookAuthor
-          reviewerName
-          reviewerRole
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            body { processed summary }
+            bookTitle
+            reviewerName
+            image { url alt width height }
           }
         }
       }
