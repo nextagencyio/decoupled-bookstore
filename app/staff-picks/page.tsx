@@ -1,6 +1,5 @@
+import { getClient } from '@/lib/drupal-client'
 import { Metadata } from 'next'
-import { headers } from 'next/headers'
-import { getServerApolloClient } from '@/lib/apollo-client'
 import { GET_STAFF_PICKS } from '@/lib/queries'
 import { StaffPickData } from '@/lib/types'
 import Header from '../components/Header'
@@ -16,13 +15,8 @@ export const metadata: Metadata = {
 
 async function getStaffPicks() {
   try {
-    const requestHeaders = await headers()
-    const apolloClient = getServerApolloClient(requestHeaders)
-    const { data } = await apolloClient.query<StaffPickData>({
-      query: GET_STAFF_PICKS,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    })
+    const client = getClient()
+    const { data } = await client.raw(GET_STAFF_PICKS, { first: 50 })
     return data?.nodeStaffPicks?.nodes || []
   } catch (error) {
     console.error('Error fetching staff picks:', error)
