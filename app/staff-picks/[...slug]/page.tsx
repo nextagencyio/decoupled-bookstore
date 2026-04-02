@@ -24,7 +24,7 @@ interface StaffPickByPathData {
 async function getStaffPick(path: string): Promise<DrupalStaffPick | null> {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_STAFF_PICK_BY_PATH, { path })
+    const data = await client.raw(GET_STAFF_PICK_BY_PATH, { path })
     return data?.route?.entity || null
   } catch (error) {
     console.error('Error fetching staff pick:', error)
